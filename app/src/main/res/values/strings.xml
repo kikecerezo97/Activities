@@ -4,7 +4,13 @@
     <string name="activity_two">Activity 2</string>
     <string name="activity_tree">Activity 3</string>
     <string name="activity_four">Activity 4</string>
+    <string name="activity_five">Activity 5</string>
     <string name="button">Cambiar a Activity 2</string>
     <string name="button_3">Cambiar a Activity 3</string>
     <string name="button_4">Cambiar a Activity 4</string>
+
+    <string name="button_image">Boton Imágen</string>
+    <string name="edit_text">Escribe tu nombre</string>
+    <string name="text_2">Texto 2</string>
+    <string name="text_button">Saludar</string>
 </resources>

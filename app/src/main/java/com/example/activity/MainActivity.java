@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this,"Entrando a nueva actividad",Toast.LENGTH_LONG).show();
                 miIntent=new Intent(MainActivity.this,activity4.class);
                 break;
+            case R.id.imageButton2:
+                Toast.makeText(this,"Entrando a nueva actividad",Toast.LENGTH_LONG).show();
+                miIntent=new Intent(MainActivity.this,HolaMundo.class);
+                break;
         }
 
         if(miIntent!=null){//nueva linea

@@ -4,39 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity">
-
+    tools:context=".HolaMundo">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/activity_two"
-            android:textAlignment="center"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            />
-
         <EditText
-            android:id="@+id/editTextName"
+            android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
+            android:autofillHints="@string/edit_text"
             android:hint="@string/edit_text"
-            android:importantForAutofill="no"
             android:textStyle="bold"
-            android:textSize="36sp"/>
+            android:textSize="36sp"
+            android:textAlignment="center"/>
 
-        <Button
-            android:id="@+id/button"
+        <TextView
+            android:id="@+id/label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="SaludarActivity"
+            android:text="@string/text_2"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
             android:text="@string/text_button"
             android:textSize="30sp" />
 

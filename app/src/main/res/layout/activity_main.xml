@@ -40,5 +40,14 @@
             android:layout_height="wrap_content"
             android:onClick="CambiarActivity"
             android:text="@string/button_4" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:contentDescription="@string/button_image"
+            android:onClick="CambiarActivity"
+            app:srcCompat="@drawable/materialred" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
